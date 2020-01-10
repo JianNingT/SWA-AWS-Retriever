@@ -11,4 +11,5 @@ AWS_Retriever.jar is the executable:
 - `SQL_PORT`: The _MySQL_ database name
 
 Performs data retrieval hourly, specifically flow sensor, flush sensor and health report entries.  
+  
 _**Will expand on other details soon**_
