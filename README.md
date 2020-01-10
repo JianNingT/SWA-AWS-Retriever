@@ -1,11 +1,11 @@
 # SWA-AWS-Retriever
-Retrieves sensor data from the AWS cloud server, and inserts them into the data server's MySQL database  
+Retrieves sensor data from the AWS cloud-server, and inserts them into the data-server's MySQL database  
   
 AWS_Retriever.jar is the executable:  
 `java -jar AWS_Retriever.jar {AWS_RESTful_API} {SQL_HOST} {SQL_USERNAME} {SQL_USERPASS} {SQL_DB} {SQL_PORT}`
-- `AWS_RESTful_API` Where the 
-- `SQL_HOST`
-- `SQL_USERNAME`
-- `SQL_USERPASS`
-- `SQL_DB`
-- `SQL_PORT`
+- `AWS_RESTful_API`: Cloud-server RESTful API, i.e. https://api.smartwater.ml/
+- `SQL_HOST`: The data-server, likely _localhost_
+- `SQL_USERNAME`: The _MySQL_ user name
+- `SQL_USERPASS`: The _MySQL_ user password
+- `SQL_DB`: The _MySQL_ database name
+- `SQL_PORT`: The _MySQL_ database name
