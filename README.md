@@ -8,7 +8,7 @@ AWS_Retriever.jar is the executable (Exported Runnable JAR):
 - `SQL_USERNAME`: the _MySQL_ user name
 - `SQL_USERPASS`: the _MySQL_ user password
 - `SQL_DB`: the _MySQL_ database name
-- `SQL_PORT`: the _MySQL_ database name
+- `SQL_PORT`: the _MySQL_ interface port
 
 Performs data retrieval hourly, specifically flow sensor, flush sensor and health report entries.  
   
